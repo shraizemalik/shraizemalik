@@ -1,169 +1,277 @@
 <!-- ============================================================
-     Shraize Ali · GitHub Profile README
-     Clean. Professional. No broken widgets.
+     SHRAIZE ALI · GITHUB PROFILE
+     Modern · Professional · Light & Dark mode friendly
 ============================================================ -->
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,100:1e3a8a&height=200&section=header&text=Shraize%20Ali&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=Full-Stack%20Software%20Engineer&descSize=18&descAlignY=62&animation=fadeIn" width="100%" alt="banner"/>
-</div>
+<a name="readme-top"></a>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shraize-ali-5a054a23a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:sheziali38@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sheziali38@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <img src="https://img.shields.io/badge/Location-Faisalabad%2C%20Pakistan-1f6feb?style=flat-square&logo=googlemaps&logoColor=white" alt="Location"/>
-  <img src="https://img.shields.io/badge/Experience-3%2B%20years-15803d?style=flat-square" alt="Experience"/>
+<!-- ═══════════════════════ HERO BANNER ═══════════════════════ -->
+<div align="center">
+  
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=900&height=70&lines=Hi%2C+I'm+Shraize+Ali+%F0%9F%91%8B;Full-Stack+Software+Engineer;Laravel+%2B+React+Native+Specialist;PHP+Craftsman+%E2%80%94+I+write+with+intent" alt="Typing animation"/>
+
+<br/>
+
+<p>
+  <a href="https://www.linkedin.com/in/shraize-ali-5a054a23a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sheziali38@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://wa.me/923076087398"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+  <a href="#"><img src="https://komarev.com/ghpvc/?username=shraizemalik&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS"/></a>
 </p>
 
----
+</div>
 
-### About
+<!-- ═══════════════════════ ABOUT SECTION ═══════════════════════ -->
 
-I'm a Full-Stack Software Engineer with **3+ years** of experience building production-grade web and mobile applications. My core stack is **PHP / Laravel** on the backend and **React / React Native** on the frontend. I specialize in designing scalable database schemas, building robust REST APIs, and shipping complete features from architecture to deployment.
-
-I've built two enterprise-grade ERP systems, deployed offline-capable mobile applications to both the Play Store and App Store, and architected multi-tenant SaaS platforms used by multiple companies on a single codebase.
-
-```php
-<?php
-
-class Shraize
-{
-    public string $role     = 'Full-Stack Software Engineer';
-    public string $stack    = 'PHP · Laravel · React · React Native';
-    public string $focus    = 'Scalable architecture, REST APIs, multi-tenant systems';
-    public string $location = 'Faisalabad, Pakistan';
-    public bool   $openToWork = true;
-
-    public function currentlyBuilding(): array
-    {
-        return [
-            'Multi-tenant ERP platforms',
-            'Offline-first mobile applications',
-            'High-performance REST APIs',
-        ];
-    }
-}
-```
-
----
-
-### Selected Work
+##  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Smiling%20Face%20with%20Sunglasses.png" width="32"/></picture> &nbsp;About Me
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="60%" valign="top">
 
-#### Enterprise Manufacturing ERP
+<br/>
 
-A complete ERP for a manufacturing company covering purchase, production, sales, inventory, and finance.
+```typescript
+const shraize = {
+  role:       "Full-Stack Software Engineer",
+  experience: "3+ years",
+  location:   "Faisalabad, Pakistan 🇵🇰",
 
-- **100+ REST APIs** and full database schema
-- Cross-platform mobile app for field sales
-- Offline support with automatic sync
-- Published to Play Store & App Store via EAS
-- Role-based access control
+  stack: {
+    backend:  ["PHP", "Laravel", "REST APIs"],
+    frontend: ["React", "TypeScript", "Tailwind"],
+    mobile:   ["React Native", "Expo", "SQLite"],
+    database: ["MySQL", "SQL Server"],
+  },
 
-**Stack:** Custom PHP MVC, MySQL, SQLite, React, React Native, Expo
+  currentFocus: [
+    "Multi-tenant SaaS architecture",
+    "Offline-first mobile apps",
+    "Scalable REST APIs",
+  ],
+
+  philosophy: "I write PHP with intent. Every line.",
+  openToWork: true,
+};
+```
+
+<br/>
 
 </td>
-<td width="33%" valign="top">
+<td width="40%" valign="top" align="center">
 
-#### Multi-Tenant Distribution ERP
+<br/>
 
-A multi-tenant SaaS where multiple companies operate on a single platform with fully isolated data and settings.
+<img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="280" alt="coding animation"/>
 
-- Distribution & wholesale modules
-- Repair-service module with stock integration
-- Mobile order-taker app with offline sync
-- Secured via Laravel Sanctum + RBAC
-- Background processing via Laravel Queues
+<br/><br/>
 
-**Stack:** Laravel, MySQL, Sanctum, React Native, REST APIs
-
-</td>
-<td width="33%" valign="top">
-
-#### Salon Booking Marketplace
-
-A location-based multi-vendor marketplace connecting customers with nearby salons and barbershops.
-
-- Customer, vendor, and admin dashboards
-- Google Maps location search
-- Online payment integration
-- Automated reminders via scheduled jobs
-- Commission & booking management
-
-**Stack:** PHP, CodeIgniter, MySQL, jQuery
+<a href="https://github.com/shraizemalik">
+  <img src="https://img.shields.io/badge/Open_to_Work-15803D?style=for-the-badge&logo=briefcase&logoColor=white" alt="Open to Work"/>
+</a>
 
 </td>
 </tr>
 </table>
 
----
+<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
 
-### Technical Skills
-
-**Backend**
-&nbsp;&nbsp;`PHP` &nbsp; `Laravel` &nbsp; `CodeIgniter` &nbsp; `REST APIs` &nbsp; `Laravel Sanctum` &nbsp; `Eloquent ORM` &nbsp; `Queues`
-
-**Frontend**
-&nbsp;&nbsp;`React` &nbsp; `TypeScript` &nbsp; `JavaScript` &nbsp; `HTML5` &nbsp; `CSS3` &nbsp; `Tailwind CSS`
-
-**Mobile**
-&nbsp;&nbsp;`React Native` &nbsp; `Expo` &nbsp; `EAS Build` &nbsp; `SQLite` &nbsp; `Offline Sync`
-
-**Databases**
-&nbsp;&nbsp;`MySQL` &nbsp; `Microsoft SQL Server` &nbsp; `SQLite` &nbsp; `Schema Design` &nbsp; `Query Optimization`
-
-**Tools & Workflow**
-&nbsp;&nbsp;`Git` &nbsp; `GitHub` &nbsp; `Postman` &nbsp; `JWT` &nbsp; `Vite` &nbsp; `VS Code` &nbsp; `Linux`
-
----
-
-### What I Bring
-
-| | |
-|---|---|
-| **End-to-end ownership** | I take features from requirement to production — architecture, database, API, UI, testing, and deployment. |
-| **Scalable system design** | I've architected multi-tenant platforms serving multiple companies on a single, isolated codebase. |
-| **Offline-first thinking** | I build mobile apps that work without connectivity and sync intelligently when online. |
-| **Clean, intentional code** | I write maintainable PHP and TypeScript with clear separation of concerns. |
-| **Production deployment** | Real apps shipped to real users — Play Store, App Store, and live web platforms. |
-
----
-
-### GitHub Activity
+##  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="32"/></picture> &nbsp;Tech Stack
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shraizemalik&show_icons=true&hide_border=true&title_color=1f6feb&icon_color=1f6feb&text_color=8b949e&bg_color=0d1117&include_all_commits=true&count_private=true" height="160" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shraizemalik&layout=compact&hide_border=true&title_color=1f6feb&text_color=8b949e&bg_color=0d1117&langs_count=8" height="160" alt="Top Languages"/>
+
+<table>
+<tr>
+<td align="center" width="20%">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="48" /><br/>
+<sub><b>Laravel</b></sub>
+</td>
+<td align="center" width="20%">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="48" /><br/>
+<sub><b>PHP</b></sub>
+</td>
+<td align="center" width="20%">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" /><br/>
+<sub><b>React</b></sub>
+</td>
+<td align="center" width="20%">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" /><br/>
+<sub><b>React Native</b></sub>
+</td>
+<td align="center" width="20%">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="48" /><br/>
+<sub><b>TypeScript</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" /><br/>
+<sub><b>MySQL</b></sub>
+</td>
+<td align="center">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="48" /><br/>
+<sub><b>SQL Server</b></sub>
+</td>
+<td align="center">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="48" /><br/>
+<sub><b>SQLite</b></sub>
+</td>
+<td align="center">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="48" /><br/>
+<sub><b>Tailwind</b></sub>
+</td>
+<td align="center">
+<br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" /><br/>
+<sub><b>Git</b></sub>
+</td>
+</tr>
+</table>
+
 </div>
 
----
+<!-- ═══════════════════════ FEATURED PROJECTS ═══════════════════════ -->
 
-### Education
+##  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="32"/></picture> &nbsp;Featured Projects
 
-**BS Software Engineering** &nbsp;·&nbsp; Riphah International University &nbsp;·&nbsp; 2020 – 2024
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🏭 Manufacturing ERP & Field Sales
 
-### Currently
+> Complete ERP system with cross-platform mobile app for field sales teams.
 
-- Open to **full-stack engineering roles** and **freelance projects**
-- Deepening expertise in **system design** and **API performance**
-- Exploring **Node.js** to complement my PHP backend skills
+**Highlights**
+- ⚡ **100+ REST APIs** powering all modules
+- 📱 Offline-first mobile app with smart sync
+- 🏬 Modules: Purchase · Production · Sales · Inventory · Finance
+- 🚀 Live on **Play Store** & **App Store**
 
----
+`Custom PHP MVC` `MySQL` `React Native` `Expo` `SQLite`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 Multi-Tenant Distribution ERP
+
+> Multi-tenant SaaS — multiple companies, isolated data, single codebase.
+
+**Highlights**
+- 🔐 Multi-tenancy with data isolation
+- 📦 Distribution + wholesale + repair-service modules
+- 📲 Offline-capable mobile order-taker
+- 🛡️ Secured with **Laravel Sanctum** + RBAC
+
+`Laravel` `MySQL` `Sanctum` `React Native` `REST APIs`
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### 💈 Multi-Vendor Salon Booking Marketplace
+
+> Location-based marketplace connecting customers with nearby salons and barbershops.
+
+**Highlights**
+- 🗺️ Google Maps integration for nearby search
+- 💳 Online payment integration for bookings
+- 👥 Three dashboards: Customer · Vendor · Admin
+- 🔔 Automated reminders via scheduled jobs
+
+`PHP` `CodeIgniter` `MySQL` `jQuery` `Online Payments`
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════ STATS ═══════════════════════ -->
+
+##  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Bar%20Chart.png" width="32"/></picture> &nbsp;GitHub Stats
 
 <div align="center">
-  
-  **Let's build something great together.**
 
-  <a href="mailto:sheziali38@gmail.com">sheziali38@gmail.com</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/shraize-ali-5a054a23a/">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="tel:+923076087398">+92 307 6087398</a>
+<a href="https://github.com/shraizemalik">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shraizemalik&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&icon_color=2F81F7&text_color=C9D1D9&include_all_commits=true&count_private=true" />
+</a>
+<a href="https://github.com/shraizemalik">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shraizemalik&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=2F81F7&text_color=C9D1D9&langs_count=8" />
+</a>
+
+</div>
+
+<!-- ═══════════════════════ WHAT I BRING ═══════════════════════ -->
+
+##  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="32"/></picture> &nbsp;What I Bring to the Table
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 🎯
+### End-to-End Ownership
+
+From requirement gathering to production deployment — I own the entire lifecycle: architecture, database, API, UI, testing, deployment.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 🏗️
+### Scalable Architecture
+
+I've designed multi-tenant SaaS platforms where multiple companies run on a single codebase with fully isolated data.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 📱
+### Offline-First Mobile
+
+I build mobile apps that work without connectivity and sync intelligently when back online — published on both stores.
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════ CONNECT ═══════════════════════ -->
+
+<br/>
+
+<div align="center">
+
+###  Let's Build Something Great Together
+
+<br/>
+
+<a href="mailto:sheziali38@gmail.com">
+  <img src="https://img.shields.io/badge/Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/shraize-ali-5a054a23a/">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://wa.me/923076087398">
+  <img src="https://img.shields.io/badge/WhatsApp_Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+</a>
+
+<br/><br/>
+
+<sub>📍 <b>Faisalabad, Pakistan</b> &nbsp;·&nbsp; ⏰ <b>Available for full-time roles & freelance projects</b></sub>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%" alt="footer"/>
 
 </div>
